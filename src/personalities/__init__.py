@@ -6,6 +6,7 @@ from .luna import luna
 from .makima import makima
 from .sacha import sacha
 from .sandra import sandra
+from .marya import marya
 
 __all__ = [
     "sacha",
@@ -16,6 +17,7 @@ __all__ = [
     "alix_earle",
     "jack_dawson",
     "jordan_belfort",
+    "marya",
     "get_personality"
 ]
 
