@@ -33,7 +33,7 @@ def get_personality(name: str):
             "Alix Earle": alix_earle,
             "Jack Dawson": jack_dawson,
             "Jordan Belfort": jordan_belfort,
-            "Marya": Marya
+            "Marya": marya
         }[name]
     except Exception:
         raise Exception("The personality you selected does not exist!")

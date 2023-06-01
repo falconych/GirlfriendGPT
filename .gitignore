@@ -331,3 +331,6 @@ http_handler.py
 run_server.py
 test.py
 utils.py
+
+#deployment files
+steamship.json
