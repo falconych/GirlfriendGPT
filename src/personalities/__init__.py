@@ -6,6 +6,7 @@ from .luna import luna
 from .makima import makima
 from .sacha import sacha
 from .sandra import sandra
+from .marya import marya
 
 __all__ = [
     "sacha",
@@ -16,6 +17,7 @@ __all__ = [
     "alix_earle",
     "jack_dawson",
     "jordan_belfort",
+    "marya",
     "get_personality"
 ]
 
@@ -31,6 +33,8 @@ def get_personality(name: str):
             "Alix Earle": alix_earle,
             "Jack Dawson": jack_dawson,
             "Jordan Belfort": jordan_belfort,
+            "Marya": Marya
         }[name]
     except Exception:
         raise Exception("The personality you selected does not exist!")
+    
